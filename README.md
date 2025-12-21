@@ -25,9 +25,9 @@ This repository contains a manual QA testing project created to demonstrate soft
 - Markdown
 
 ## Repository Structure
-- `test-plan` : Test plan documentation
-- `test-cases` : Detailed test cases
-- `bug-reports` : Bug report templates
+- [test-plan](./test-plan) : Test plan documentation
+- [test-cases](./test-cases) : Detailed test cases
+- [bug-reports](./bug-reports) : Bug report templates
 
 ## Author
 QA portfolio project
