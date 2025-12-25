@@ -31,3 +31,10 @@ This repository contains a manual QA testing project created to demonstrate soft
 
 ## Author
 QA portfolio project
+
+## QA Traceability
+This repository demonstrates QA best practices including:
+- Test case design
+- Bug reporting
+- Test case ↔ bug traceability
+
