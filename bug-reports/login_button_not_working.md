@@ -64,3 +64,7 @@ None
 
 ## Status
 Open
+
+## Related Test Case
+- [TC_LOGIN_001 – Valid login](../test-cases/login_test_cases.md#tc_login_001)
+
