@@ -25,9 +25,15 @@ This repository contains a manual QA testing project created to demonstrate soft
 - Markdown
 
 ## Repository Structure
-- [test-plan](./test-plan) : Test plan documentation
-- [test-cases](./test-cases) : Detailed test cases
-- [bug-reports](./bug-reports) : Bug report templates
+- test-cases: manual test cases
+- bug-reports: documented defects
+- test-plan: test strategy and scope
+- test-scenarios: high-level scenarios (Gherkin)
+- test-data: datasets used during testing
+- checklists: smoke/regression checklists
+- templates: reusable QA templates
+- evidence: screenshots/videos/logs
+
 
 ## Author
 QA portfolio project
