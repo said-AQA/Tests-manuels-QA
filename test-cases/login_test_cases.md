@@ -22,8 +22,8 @@ These test cases verify the login functionality of the application, including va
 
 | ID | Title | Preconditions | Test Steps | Test Data | Expected Result | Priority | Type | Related Bugs |
 |----|-------|---------------|------------|-----------|-----------------|----------|------|--------------|
-| TC_LOGIN_001 | Valid login with correct credentials | User account exists and is active | 1. Open login page<br>2. Enter valid email<br>3. Enter valid password<br>4. Click Login | Email: user@test.com<br>Password: Azerty!123 | User is successfully logged in and redirected to dashboard | P0 | Functional | [BUG_LOGIN_001](../bug-reports/login_button_not_working.md) |
-| TC_LOGIN_002 | Login with invalid password | User account exists | 1. Open login page<br>2. Enter valid email<br>3. Enter invalid password<br>4. Click Login | Email: user@test.com<br>Password: WrongPass | Error message is displayed and user remains on login page | P0 | Negative |
+| TC_LOGIN_001 | Valid login with correct credentials | User account exists and is active | 1. Open login page<br>2. Enter valid email<br>3. Enter valid password<br>4. Click Login | Email: user@test.com<br>Password: Azerty!123 | User is successfully logged in and redirected to dashboard | P0 | Functional |  |
+| TC_LOGIN_002 | Login with invalid password | User account exists | 1. Open login page<br>2. Enter valid email<br>3. Enter invalid password<br>4. Click Login | Email: user@test.com<br>Password: WrongPass | Error message is displayed and user remains on login page | P0 | Negative |[BUG_LOGIN_001](../bug-reports/login_button_not_working.md) |
 | TC_LOGIN_003 | Login with empty fields | None | 1. Open login page<br>2. Leave email and password empty<br>3. Click Login | Empty fields | Validation messages are displayed for required fields | P1 | Validation |
 
 ---
