@@ -32,4 +32,44 @@ The current scope of testing focuses on the **Authentication module**, including
 - Negative testing
 - Exploratory testing
 - Smoke testing
-- Regression testin
+- Regression testing (checklist-based)
+
+---
+
+## Tools Used
+- GitHub (version control & documentation)
+- Markdown (QA documentation)
+- Gherkin (high-level test scenarios)
+
+---
+
+## Repository Structure
+
+```text
+bug-reports/
+ └── login_button_not_working.md
+
+checklists/
+ ├── smoke_checklist.md
+ └── regression_checklist.md
+
+evidence/
+ └── README.md
+
+templates/
+ ├── bug_report_template.md
+ └── test_case_template.md
+
+test-cases/
+ └── login_test_cases.md
+
+test-data/
+ └── users.md
+
+test-plan/
+ └── test_plan.md
+
+test-scenarios/
+ └── login_scenarios.feature
+
+README.md
